@@ -1,4 +1,4 @@
-#include "VIInputContext.h"
+#include "viinputcontext.h"
 #include <QDebug>
 #include <QEvent>
 #include <QGuiApplication>

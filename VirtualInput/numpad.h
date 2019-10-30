@@ -1,6 +1,6 @@
 #ifndef NUMPAD_H
 #define NUMPAD_H
-#include <QtDesigner/QDesignerExportWidget>
+#include <QtUiPlugin/QDesignerExportWidget>
 #include <QDialog>
 #include <QVariant>
 #include <QLineEdit>

@@ -162,8 +162,8 @@ void Numpad::backspaceClicked()
 
 void Numpad::popData()
 {
-
-    emit dataSet(&QVariant(ui->edValue->text()));
+    QVariant temp=QVariant(ui->edValue->text());
+    emit dataSet(&temp);
     close();
 }
 
@@ -186,7 +186,8 @@ void Numpad::checkValue()
     if (validator)
     {
         int pos = 0;
-        if (validator->validate(ui->edValue->text(),pos) == QValidator::Acceptable)
+        QString temp=ui->edValue->text();
+        if (validator->validate(temp,pos) == QValidator::Acceptable)
         {
             ui->edValue->setPalette(orgPalette);
             ui->btn_enter->setEnabled(true);

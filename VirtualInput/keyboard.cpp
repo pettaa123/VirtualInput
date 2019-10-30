@@ -217,8 +217,8 @@ void Keyboard::backspaceClicked()
 
 void Keyboard::popData()
 {
-
-    emit dataSet(&QVariant(ui->edValue->text()));
+    QVariant temp=QVariant(ui->edValue->text());
+    emit dataSet(&temp);
     close();
 }
 
