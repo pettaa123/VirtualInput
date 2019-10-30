@@ -18,7 +18,7 @@ I added a simple example to show the usage.
 
 How to use:
 * Build the library
-* copy the library to platforminputcontexts in your application or to plugins/platforminputcontexts in your QtDir
+* copy the libVirtualInput.so to platforminputcontexts in your application or to plugins/platforminputcontexts in your QtDir (/usr/lib/x86_64-linux-gnu/qt5/plugins/platforminputcontexts/ in my case)
 * Add a custom property named "keyboard" (without the quotes) of the type bool to the QLineEdit and set it to enabled
 * For text you can set the maxLength property
 * For values you can add a QIntValidator to the QLineEdit
