@@ -1,6 +1,9 @@
 # VirtualInput (<a href='https://qtcentre.org/threads/49181-virtual-keyboard-in-QT-Application'>qtcentre.org</a>)
 virtual keyboard for QT Applications
 
+This is a fork for linux, removing some linux specific errors and depcreated warnings by the windows remote. Make sure you have: 
+*sudo apt-get install qtbase5-private-dev  if qpa/qplatforminputcontext.h etc. is missing
+*sudo apt-get install qttools5-dev if QtUiPlugin/QDesignerExportWidget>
 
 numpad layout:
 * <img src=numpad.png />
