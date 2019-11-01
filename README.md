@@ -25,6 +25,6 @@ How to use:
 
 **WINDOWS**
 
-* #include <QValidator> in numpad.h when using minGW compiler
+* #include QValidator in numpad.h when using minGW compiler
 
 
