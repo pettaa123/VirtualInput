@@ -26,5 +26,6 @@ How to use:
 **WINDOWS**
 
 * #include QValidator in numpad.h when using minGW compiler
+* copy VirtualInput.dll next to the .exe into a selfcreated folder "platforminputcontexts"
 
 
