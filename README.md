@@ -23,4 +23,8 @@ How to use:
 * For text you can set the maxLength property
 * For values you can add a QIntValidator to the QLineEdit
 
+**WINDOWS**
+
+* #include <QValidator> in numpad.h when using minGW compiler
+
 
